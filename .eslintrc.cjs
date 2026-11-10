@@ -1,18 +1,18 @@
-// .eslintrc.js (CommonJS, compatible ESLint v8)
+// .eslintrc.cjs (CommonJS, compatible ESLint v8)
 module.exports = {
   root: true,
   env: {
     node: true,
-    es2021: true,
+    es2022: true
   },
   extends: [
     'standard'
   ],
   parserOptions: {
-    ecmaVersion: 12,
-    sourceType: 'module',
+    ecmaVersion: 2022,
+    sourceType: 'module'
   },
   rules: {
     // Ajoute ici tes règles personnalisées si besoin
-  },
-};
+  }
+}
