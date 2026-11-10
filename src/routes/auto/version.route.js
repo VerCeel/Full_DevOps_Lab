@@ -19,5 +19,4 @@ router.get('/version', (_req, res) => {
   res.status(200).json({ version: pkg.version })
 })
 
-
 export default router
